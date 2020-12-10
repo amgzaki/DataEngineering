@@ -1,4 +1,5 @@
 # Sparkify PostgreSQL ETL
+This is a project from Udacity Data_Engineering Non-degress course
 
 ## Overview
 Sparkify is a startup in the music industry. The goal of this modelling exercise is to collect data on songs and user activities to analyze what songs users are listening to. The data is in JSON format, which gets ingested into a PostgreSQL DB and is a subset from the [Million Song Dataset](http://millionsongdataset.com/)
@@ -22,7 +23,7 @@ Uses a star scehema with 1 fact table and 4 dimension tables. Python is used as 
 ## Database
 Star schema with 1 Fact table in the center and 4 surrounding dimension tables.
 The fact table has foreign keys each refrence the primary key in each of the dimension tables. This allows us to de-normalize our tables easier, simplify our queries, and do fast aggregations. 
-![](Sparkify ERD.png)
+![](https://github.com/amgzaki/DataEngineering/blob/master/1_Data_Modeling_with_PostgreSQL/Sparkify%20ERD.png)
 
 #### Fact Table
 **songplays**
